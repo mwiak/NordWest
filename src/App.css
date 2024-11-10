@@ -1,0 +1,292 @@
+
+ body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+ 
+} 
+
+
+
+.card {
+  width: 350px;                      /* Slightly wider card */
+  margin: 100px auto;               /* Center the card on the page */
+  padding: 2em;                     /* Padding inside the card */
+  border-radius: 12px;              /* More pronounced rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Softer shadow for depth */
+  background-color: #ffffff;        /* White background for contrast */
+  border: 1px solid #dcdcdc; 
+     /* Light gray border */
+}
+
+.card span {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.list-group-item {
+  display: flex; /* Make the list item a flex container */
+  align-items: center; /* Center the items vertically */
+  justify-content: flex-start; /* Align items to the start (left) */
+}
+
+
+
+
+
+.card li:hover {
+  background-color: #0056b3;         /* Darker shade on hover */
+}
+
+.card p {
+  text-align: center;                /* Centered paragraph for additional text */
+  color: #777;                       /* Gray color for secondary text */
+  margin-top: 1em;                  /* Space above */
+}
+.card i {
+  /* align-self: left; */
+               
+  color: #777;                       /* Gray color for secondary text */
+  margin: 1em;                  /* Space above */
+}
+.icon {
+  width: 24px; /* Adjust the size as needed */
+  height: 24px; /* Adjust the size as needed */
+  margin-right: 8px; /* Space between the icon and the text */
+}
+
+.sidenav{
+  width: 240px;
+  position: absolute;
+  background-color: #011627;
+  height: 100vh;
+  padding: 0 30px;
+  transition: all 1s;
+
+}
+
+.sidenav.inactive{
+  left: -100%;
+}
+
+
+.sidenav ul{
+padding: 0;
+  
+}
+
+
+
+
+.sidenav a{
+  text-decoration: none;
+  color: #eaecef;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.sidenav li{
+  margin: 10px 0;
+list-style: none;
+
+}
+
+
+
+.sidenav a:hover, .sidenav a.active{
+  
+  background: #172b4d !important;
+  
+}
+
+.coursesPanel{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  padding: 1em;
+  width: 50%;
+  height: 600px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  gap: 6px;
+}
+
+.courseCard{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-content: center;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  min-width: 200px;
+  min-height: 140px;
+  max-height: 210px;
+  overflow: hidden;
+  cursor: pointer;
+  /* margin: auto; */
+  
+}
+.courseCard:hover{
+  background-color: rgba(153, 153, 153, 0.5);
+  
+
+}
+
+.courseCard h6{
+  color: #011627;
+  padding: 5px 5px 1px 6px;
+}
+.courseImg{
+  width: 400px;       /* Fixed width */
+  height: 150px; 
+  /* object-fit: cover;     */
+  
+}
+.pdf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: #606d77;
+  width: 120px;
+  height: 100px;
+  border-radius: 15px;
+}
+.pdfImg{
+  width: 50px;
+  height: 50px;
+}
+
+.pdf p{
+  color: #dcdcdc;
+}
+.slides{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: #606d77;
+  width: 120px;
+  height: 100px;
+  border-radius: 15px;
+
+}
+
+.slidesImg{
+  width: 50px;
+  height: 50px;
+}
+.slides p{
+  color: #dcdcdc;
+}
+h2, p {
+  color: #011627;
+  padding: 1px 0px 1px 3px;
+}
+
+.slots{
+  display: flex;
+  gap: 10px;
+  
+}
+ .examSlot{
+  background-color: #82a5c0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 15px;
+  border-radius: 27px;
+ }
+
+ .examSlot > * {
+  width: 30%;
+  
+}
+
+.mainPanel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  padding: 1em; 
+}
+
+.sx-react-calendar-wrapper {
+ 
+  width: 1200px;
+  max-width: 100vw;
+  height: 800px;
+  max-height: 90vh;
+  position: relative;  /* Position it relative to the .main-content */
+  bottom:  10%;  /* Position it vertically in the middle of the parent */
+  left: 20%;
+}
+.examEntry {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: baseline;
+ 
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.examEntry > * {
+  width: 30%;
+  
+}
+
+.studentEntry {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: baseline;
+ 
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.studentEntry > * {
+  width: 30%;
+  
+}
+
+.contextMenu {
+  position: absolute;
+  top: 50px; /* Adjust as needed to position under button */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.contextMenu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contextMenu li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.contextMenu li:hover {
+  background-color: #f0f0f0;
+}
