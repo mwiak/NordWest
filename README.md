@@ -1,16 +1,16 @@
 # Cloning Steps
 
-## 1) clone this repository 
+## 1) cloning this repository 
 
-## 2) delete package-lock.json file
+## 2) deleting package-lock.json file
 
-## 3) from the project root directory, run this command
+## 3) from the project root directory, running this command
 
 ```js
 npm install
 ```
 
-## 4) run the local server
+## 4) running the local server
 
 ```js
 npm start dev
