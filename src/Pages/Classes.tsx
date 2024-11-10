@@ -9,18 +9,30 @@ function Classes() {
     events: [
       {
         id: 1,
-        title: "Service management",
-        start: "2024-12-01 18:30",
-        end: "2024-12-01 19:30",
+        title: "Service Management class",
+        start: "2024-12-02 19:30",
+        end: "2024-12-02 20:30",
       },
       {
         id: 2,
-        title: "Ethics and Sustainability",
-        start: "2024-12-02 18:30",
-        end: "2024-12-02 19:30",
+        title: "Ethics and Sustainability class",
+        start: "2024-12-03 19:30",
+        end: "2024-12-03 20:30",
+      },
+      {
+        id: 3,
+        title: "Ethics and Sustainability task deadline",
+        start: "2024-12-04",
+        end: "2024-12-04",
+      },
+      {
+        id: 4,
+        title: "Service Management exam",
+        start: "2024-12-05 09:00",
+        end: "2024-12-05 10:00",
       },
     ],
-    selectedDate: "2024-12-01 19:30",
+    selectedDate: "2024-12-02 19:30",
     dayBoundaries: {
       start: "09:00",
       end: "21:00",

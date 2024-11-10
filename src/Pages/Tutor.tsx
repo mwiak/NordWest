@@ -22,7 +22,7 @@ const coursesData = [
   },
   {
     title: "Statisitcs",
-    courseID: "s-01-01",
+    courseID: "S-01-01",
     imgurl:
       "https://png.pngtree.com/thumb_back/fh260/background/20230928/pngtree-a-graph-showing-graphing-statistics-image_13300948.jpg",
   },

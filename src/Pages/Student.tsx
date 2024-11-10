@@ -9,12 +9,12 @@ const coursesData = [
     imgurl: "/SM.png",
   },
   {
-    title: "digital business",
+    title: "Digital business",
     courseID: "BS-02-01",
     imgurl: "/db.webp",
   },
   {
-    title: "ethics and sustainabilty",
+    title: "Ethics and Sustainabilty",
     courseID: "BS-03-01",
     imgurl:
       "https://www.thebuildchain.co.uk/news/wp-content/uploads/2023/11/Sustainable-Materials-Sourcing-Best-Practices-for-Ethical-and-Eco-Friendly-Procurement.jpg",

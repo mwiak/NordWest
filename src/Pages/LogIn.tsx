@@ -6,8 +6,10 @@ function LogInScreen() {
   const navigate = useNavigate();
   return (
     <>
-      <div className="card p-4">
+      <div className="card p-4 login">
+        <img src="/logo.png" alt="" />
         <h2>Login as</h2>
+
         <ul className="list-group">
           <li className="list-group-item" onClick={handleClickS}>
             {" "}

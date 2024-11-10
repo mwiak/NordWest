@@ -10,18 +10,24 @@ function ClassesTutor() {
     events: [
       {
         id: 1,
-        title: "Service management",
-        start: "2024-12-01 18:30",
-        end: "2024-12-01 19:30",
-      },
-      {
-        id: 2,
-        title: "Ethics and Sustainability",
+        title: "Math I class",
         start: "2024-12-02 18:30",
         end: "2024-12-02 19:30",
       },
+      {
+        id: 4,
+        title: "Statistics class",
+        start: "2024-12-03 18:30",
+        end: "2024-12-03 19:30",
+      },
+      {
+        id: 6,
+        title: "Linear ALgebra class",
+        start: "2024-12-04 16:30",
+        end: "2024-12-04 17:30",
+      },
     ],
-    selectedDate: "2024-12-01 19:30",
+    selectedDate: "2024-12-02",
     dayBoundaries: {
       start: "09:00",
       end: "21:00",

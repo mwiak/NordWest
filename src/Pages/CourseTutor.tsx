@@ -1,8 +1,9 @@
 import { useParams } from "react-router-dom";
 import SideNaveStudent from "../Components/SideNav";
-import User from "../Components/User";
+
 import CoursesT from "../CoursesT";
 import SideNaveTutor from "../Components/SideNavTutor";
+import UserTutor from "../Components/UserTutor";
 
 function renderB(index: number) {
   const elements = [];
@@ -53,7 +54,7 @@ function CourseTutor() {
 
   return (
     <>
-      <User></User>
+      <UserTutor />
       <SideNaveTutor index={0}></SideNaveTutor>
       {course && (
         <>

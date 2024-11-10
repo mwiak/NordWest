@@ -54,9 +54,7 @@ function UserTutor() {
           <p>
             <strong>Tutor ID:</strong> {userData.tutorID}
           </p>
-
-          <a href="/">Log out</a>
-
+          <a href="/">Log out</a> <br />
           <button
             onClick={toggleCard}
             style={{

@@ -6,7 +6,13 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
  
 } 
+ .login li{
+  cursor: pointer;
+ }
 
+ .login img{
+  border-radius: 10px;
+ }
 
 
 .card {

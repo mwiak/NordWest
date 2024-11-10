@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 
 const userData = {
-  name: "John Doe",
+  name: "Ahmed",
   studentID: "S000000004",
   program: "Interantional Relations",
   semester: "2",
 
-  email: "john.doe@example.com",
-  phone: "123-456-7890",
+  email: "ahmed@example.com",
 };
 
 function User() {
@@ -64,8 +63,7 @@ function User() {
           <p>
             <strong>Current Semester:</strong> {userData.semester}
           </p>
-          <a href="/">Log out</a>
-
+          <a href="/">Log out</a> <br />
           <button
             onClick={toggleCard}
             style={{

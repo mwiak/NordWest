@@ -15,9 +15,9 @@ const CoursesT = [
         title: "Math II",
         description: "",
         examType: "written exam",
-        preWork: {nOfunits:7},
+        preWork: {nOfunits:5},
         numberOfPdfs: 1,
-        numberOfSLides: 6,
+        numberOfSLides: 3,
         numberOfStudent:15,
         
     },
@@ -26,7 +26,7 @@ const CoursesT = [
         title: "Linear Algebra",
         description: "",
         examType: "written exam",
-        preWork: {nOfunits:7},
+        preWork: {nOfunits:4},
         numberOfPdfs: 1,
         numberOfSLides: 6,
         numberOfStudent:20,
@@ -37,10 +37,10 @@ const CoursesT = [
         title: "Statistics",
         description: "",
         examType: "written exam",
-        preWork: {nOfunits:7},
+        preWork: {nOfunits:5},
         numberOfPdfs: 1,
         numberOfSLides: 6,
-        numberOfStudent:20,
+        numberOfStudent:50,
         
     }
 ];
